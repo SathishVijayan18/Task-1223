@@ -18,7 +18,7 @@ public class JdbcConnect {
 		}
 		catch(Exception e) {
 			e.printStackTrace();
-			}
+			} 
 		con=DriverManager.getConnection(dbUrl,userId,pwd);
 		return con;
 	}

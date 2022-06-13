@@ -32,7 +32,7 @@ public class Employee
 			break;
 		default:
 			log.warn("Invalid Entry");
-		}
+		} 
 	}
 	public static void insertData() throws Exception
 	{
